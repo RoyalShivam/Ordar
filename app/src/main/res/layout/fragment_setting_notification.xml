@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="@android:string/selectTextMode"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/design_default_color_error"
+            android:gravity="center"
+            android:text="Notification"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:paddingLeft="15dp"
+                android:text="Order"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:paddingRight="10dp"
+                android:src="@drawable/edit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="3"
+                android:background="@color/cardview_shadow_start_color"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:paddingLeft="10dp"
+                android:text="Home"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:paddingRight="10dp"
+                android:src="@drawable/edit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="3"
+                android:background="@color/cardview_shadow_start_color"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:paddingLeft="10dp"
+                android:text="Goods"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:paddingRight="10dp"
+                android:src="@drawable/edit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="3"
+                android:background="@color/cardview_shadow_start_color"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:paddingLeft="10dp"
+                android:text="Services"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:paddingRight="10dp"
+                android:src="@drawable/edit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="3"
+                android:background="@color/cardview_shadow_start_color"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:paddingLeft="10dp"
+                android:text="Rents"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:paddingRight="10dp"
+                android:src="@drawable/edit" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

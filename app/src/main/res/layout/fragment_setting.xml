@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="@android:string/selectTextMode"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/design_default_color_error"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Setting"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:paddingLeft="20dp"
+        android:text="Profile"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:text="Business Profile"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:text="Account"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:text="Privacy"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:text="Notification"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:text="Help"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="15dp"
+        android:text="Invite a Friend"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp" />
+
+</LinearLayout>

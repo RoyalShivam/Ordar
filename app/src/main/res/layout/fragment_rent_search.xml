@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="@android:string/selectTextMode"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37FAFAFA"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textview_border"
+            android:backgroundTint="#C31F1F"
+            android:gravity="center"
+            android:text="Search here for Rent"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/search"
+            android:tint="@android:color/black" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#C31F1F" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/textview_border"
+
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="61dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Rooms"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="61dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Vehicle"
+                        android:textColor="#C31F1F"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="61dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Groceries"
+                        android:textColor="#C31F1F"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="61dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Groceries"
+                        android:textColor="#C31F1F"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="61dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Groceries"
+                        android:textColor="#C31F1F"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="61dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Groceries"
+                        android:textColor="#C31F1F"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

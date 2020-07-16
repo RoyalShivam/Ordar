@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:onClick="@android:string/selectTextMode"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/prompt_light"
+            android:gravity="center_horizontal"
+            android:text="Medicals"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B1AFAF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/piccc"
+                        app:civ_border_color="?attr/colorError"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/prompt_light"
+                            android:gravity="center"
+                            android:text="Shukla Medical Store"
+                            android:textColor="@color/colorBlackDark"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/prompt_light"
+                            android:gravity="center"
+                            android:text="Kapoorthala, Vikas Nagar, Mahanagar"
+                            android:textColor="@color/colorBlackDark"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/prompt_light"
+                            android:gravity="center"
+                            android:text="Dist-0.8km   Rating-4.8   Time-9am-9pm"
+                            android:textColor="@color/colorBlackDark"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:src="@drawable/piccc" />
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:src="@drawable/a" />
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:src="@drawable/aa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimary"
+                        android:fontFamily="@font/prompt_light"
+                        android:gravity="center"
+                        android:text="Price"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/ColorWhiteDark" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="6dp"
+                        android:src="@drawable/like"
+                        android:tint="@color/colorBlackDark" />
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/ColorWhiteDark" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="6dp"
+                        android:src="@drawable/favourite"
+                        android:tint="@color/colorBlackDark" />
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/ColorWhiteDark" />
+
+
+                    <ImageView
+
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="6dp"
+                        android:src="@drawable/call"
+                        android:tint="@color/colorBlackDark" />
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/ColorWhiteDark" />
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="6dp"
+                        android:src="@drawable/share"
+                        android:tint="@color/colorBlackDark" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/ColorWhiteDark" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

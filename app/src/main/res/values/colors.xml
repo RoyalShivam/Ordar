@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9933</color>
+    <color name="colorPrimaryDark">#F1EEEE</color>
+    <color name="colorAccent">#138808</color>
+    <color name="colorBlackDark">#201F1F</color>
+    <color name="ColorWhiteDark">#B3B2B2</color>
+
+
+    <color name= "nstafirstclor">#3c43e5</color>
+    <color name="instacenterclor">#d34267</color>
+    <color name="instalastclor">#f6ac35</color>
+
+    <color name="statusbarcolor">#CECECE</color>
+    <color name="white">#ffff</color>
+    <color name="textcolor">#464646</color>
+
+
+ </resources>
